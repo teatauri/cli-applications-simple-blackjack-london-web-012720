@@ -40,6 +40,10 @@ def hit?(current_total)
   else
     invalid_command
     prompt_user
+    input = get_user_input
+    if input != "h" || input != "s"
+      prompt_user
+    end
   end
 end
 
