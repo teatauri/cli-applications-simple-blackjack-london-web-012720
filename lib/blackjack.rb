@@ -37,10 +37,10 @@ def hit?(current_total)
     return current_total
   end
   if input = "h"
-    deal_card
+    return deal_card
   end
   elsif 
-    invalid_command
+    return invalid_command
   end
 end
 
