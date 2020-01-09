@@ -38,8 +38,7 @@ def hit?(current_total)
   end
   if input = "h"
     return deal_card
-  end
-  elsif 
+  elsif
     return invalid_command
   end
 end
