@@ -40,7 +40,7 @@ def hit?(current_total)
     card = deal_card
     return current_total + card
   elsif
-    return invalid_command
+    invalid_command
   end
 end
 
